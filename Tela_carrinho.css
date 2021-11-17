@@ -1,0 +1,132 @@
+#imagens_pequenas {
+  width: 15%;
+}
+
+.content{
+  padding-bottom: 30%;
+  height: 100%;
+  width: 100%;
+
+}
+
+.tituloColunas{
+  text-align: left;
+
+}
+
+.Quant{
+  text-align: center;
+
+}
+
+.comprar {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #5BC624;
+  box-shadow: 1px 1px 10px 0px #000000;
+  -webkit-box-shadow: 1px 1px 10px 0px #000000;
+  -moz-box-shadow: 1px 1px 10px 0px #000000;
+  text-shadow: 1px 1px 10px #000000;
+  border: solid #99C624 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  top: 58%;
+  left: 46%;
+}
+  
+.comprar:hover {
+  opacity: 0.8;
+}
+
+.voltar, .atualizar{
+  padding-bottom: 10px;
+  padding: 10px 2px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  
+}
+
+.voltar { 
+  color: #000000;
+}
+
+
+.atualizar { 
+  background-color: #f08633;
+  color: #ffffff;
+}
+
+caption{
+  color: #ffffff;
+  background-color: #f08633;
+  padding: 20px;
+
+}
+
+table {
+  width: 60%; 
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media screen and (max-width: 1100px) {
+      .filtros{
+    position: absolute;
+    top: 1%;
+    left: 33%;
+  }
+  
+  .comprar{  
+      position: absolute;
+      top: 30%;
+      left: 38%;
+      width: 30%;
+    height: 6%;
+}
+    .table {
+        width: 80%; 
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .content {
+        width: 100%;
+        padding-bottom: 30%;
+        height: 500px;
+    }
+    
+    .table {
+        width: 60%;
+        padding-bottom: 250px;
+        height: 250px;
+    }
+
+}
+

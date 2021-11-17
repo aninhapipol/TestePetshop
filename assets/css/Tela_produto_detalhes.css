@@ -1,0 +1,163 @@
+.divMais{
+    position: absolute;
+    top: 68%;
+    left: 0%;       
+}
+
+#mais{
+    font-size: 470%;
+}
+
+.associado {
+    position: absolute;
+    left: 8%;
+    top: 62%;
+}
+
+.associado #imagemAssociado{
+    width: 25%;
+}
+
+
+.info_produtos .comprar .bottom,  .info_produtos .comprar2 .bottom{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #5BC624;
+    box-shadow: 1px 1px 10px 0px #000000;
+    -webkit-box-shadow: 1px 1px 10px 0px #000000;
+    -moz-box-shadow: 1px 1px 10px 0px #000000;
+    text-shadow: 1px 1px 10px #000000;
+    border: solid #99C624 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.info_produtos .comprar2 .bottom{
+    background-color: #f08633;
+    border: solid #f08633 1px;
+
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1024px) {
+    .info_produtos .nome_produto {
+        position: absolute;
+        top: 0%;
+        left: 45%;
+    }
+    
+    .info_produtos .vender_produto .preco {
+        position: absolute;
+        top: 13%;
+        left: 45%;
+    }
+
+    .info_produtos {
+        padding-bottom: 250px;
+        height: 200px;
+
+    }
+
+    .content {
+        width: 100%;
+        padding-bottom: 250px;
+    }
+    
+    .info_produtos .vender_produto .descricao {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+    }
+    
+    .boxProdutos {
+        padding-bottom: 250px;
+    }
+    
+    .quant {
+        position: absolute;
+        top: 55%;
+        left: 76%;
+    }
+
+    #input {
+        position: absolute;
+        top: 10%;
+        left: 110%;
+    }
+    
+    .info_produtos .comprar {
+        position: absolute;
+        top: 69%;
+        left: 78%;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .filtros{
+        position: absolute;
+        top: 1%;
+        left: 33%;
+  }
+    
+    
+    .info_produtos .nome_produto {
+        position: absolute;
+        top: 100%;
+        left: 9%;
+        font-size: 30px;
+        width: 85%;
+    }
+ 
+  
+    .info_produtos .vender_produto .descricao {
+        position: absolute;
+        width: 85%;
+        top: 140%;
+        left: 9%;
+        font-size: 30px;
+
+    }
+    
+    .info_produtos .produto {
+    position: absolute;
+    left: 23%;
+    top: 3.5%;
+}
+
+    .info_produtos .produto #imagem_grande {
+    width: 90%;
+}
+    #imagens_pequenas {
+    width: 180%;
+}
+    
+    .info_produtos .vender_produto .preco {
+        position: absolute;
+        top: 0;
+        left: 68.5%;
+        font-size: 30px;
+    }
+
+    .quant {
+        position: absolute;
+        top: 40%;
+        left: 68.5%;;
+    }
+    
+    .info_produtos .comprar {
+        position: absolute;
+        top: 62%;
+        left: 73%;
+    }
+}
+

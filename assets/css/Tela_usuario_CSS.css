@@ -1,0 +1,255 @@
+
+
+.imagem_perfil{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.dados_usuario{
+    border: 3px solid #e0d9d9;
+    float: left;
+    width: 45%;
+}
+
+
+#g {
+    float: left;
+    width: 50%;
+    height: 50%;
+    display: block;
+  }
+
+#animais_usuario{
+    float: left;
+    width: 45%;
+    height: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#sugestao {
+position: absolute;
+left: 57%;
+background-color: #f08633;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+text-decoration:none; 
+width: 20%;
+}
+
+
+
+.exElementoTexto {
+    border: 2px solid black;
+}
+
+.exElementoImage {
+    padding-bottom: 80px;
+}
+
+#imagem_exemplo1,
+#imagem_exemplo2 {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+
+/* Modal Configurações */
+#semSugestao, #semSugestao2{
+    position: absolute;
+    top: 34%;
+    left: 40%;
+}
+
+.modal {
+    position: fixed;
+    top: 20%;
+    right: 20%;
+    bottom: 20%;
+    left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eb924e;
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+
+.modal:target {
+opacity: 1;
+pointer-events: auto;
+}
+
+.modal > div {
+    width: 40%;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #eb924e;
+}   
+
+.modalB {
+    position: fixed;
+    top: 17%;
+    right: 0%;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: 2px;
+    top: 0px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #f08633;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+#sugestaoPesquisa{
+    position: absolute;
+    top: -5%;
+    left: 40%;
+    width: 15%;
+}
+
+#pesquisaSugestao {
+    width: 80%;
+    height: 30px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#textoSugestao{
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+
+#sugestaoPesquisa input[type="number"] {
+    width: 90%;
+    padding: 6px 0 12px 1em;
+    color: #000000;
+    outline: none;
+}
+
+#submitSugestao{
+    position: absolute;
+    top: 1%;
+    left: 81%;
+    height: 32px;
+    width: 10%;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    border-width: 0;
+    background-color: #2ae22ad7;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.comprar .bottom{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #5BC624;
+    box-shadow: 1px 1px 10px 0px #000000;
+    -webkit-box-shadow: 1px 1px 10px 0px #000000;
+    -moz-box-shadow: 1px 1px 10px 0px #000000;
+    text-shadow: 1px 1px 10px #000000;
+    border: solid #99C624 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+
+.comprar {
+    position: absolute;
+    top: -35%;
+    left: 25%;
+}
+
+/*
+#imagens_pequenas{
+    width: 3%;
+}*/
+
+/*  Configurações Produto*/
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 6%;
+    width: 100%;
+}
+
+.product-item {
+    width: 8%;
+    height: auto;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    align-items: center;
+    align-self: flex-start;
+    transition: all .4s;
+    padding-bottom: 0px;
+    background-color: #E0E4E5;
+}
+
+.product-item h4 {
+    height: 10px;
+    background: #E0E4E5;
+    color: #fff;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-item .preco {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #E0E4E5;
+    align-items: center;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+}
+
+.product-item .preco a {
+    width: 8%;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+}
+.product-item img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,212 @@
+/*  Configurações Página */
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #E0E4E5;
+}
+
+#pagina {
+    min-height: 100%;
+    position: relative;
+}
+
+* html #pagina {
+    height: 100%;
+}
+
+
+/*  Configurações Cabeçalho */
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2c3d43;
+    height: 103px;
+}
+
+.logo {
+    position: absolute;
+    top: 0.5%;
+    left: 5%;
+}
+
+#imagem_logo {
+    width: 230px;
+}
+
+.carrinho_login {
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    justify-content: space-around;
+}
+
+.filtros {
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    justify-content: space-around;
+}
+
+.filtros img {
+    width: 70px;
+    margin-left: 10px
+}
+
+#imagem_carrinho,
+#imagem_user {
+    margin-left: 10px
+}
+
+#imagem_carrinho {
+    width: 90px;
+}
+
+#imagem_user {
+    width: 70px;
+}
+
+
+/*  Configurações Conteúdo */
+
+.content {
+    width: 100%;
+    padding-bottom: 200px;
+    padding-top: 10px;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.box {
+    display: inline-block;
+    width: 14.5%; 
+    height: auto;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+}
+
+.box h4 {
+    height: 40px;
+    background: #2c3d43;
+    color: #fff;
+    font-size: 75%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box .preco {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E0E4E5;
+    align-items: center;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+}
+
+.box .preco a {
+    width: 100%;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.box .preco:hover {
+    background-color: #2ae22ad7;
+}
+
+#box-1, #box-2, #box-3, #box-4{
+    margin-right: 5%;
+}
+#box-1, #box-2, #box-3, #box-4, #box-5 { background-color: #2c3d43; }
+
+
+
+
+
+/*  Configurações Rodapé */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #2c3d43;
+    width: 99%;
+    height: 200px;
+}
+
+.mapa {
+    position: absolute;
+    right: 0px;
+    width: 58%;
+    height: 200px;
+}
+
+.dadosEmpresa {
+    position: absolute;
+    left: 30px;
+    width: 90%;
+    height: 100%;
+}
+
+.empresa {
+    position: absolute;
+    top: 10px;
+    color: #f08633;
+}
+
+.enderecoContato {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    color: #f08633;
+}
+
+.endereco {
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    color: #FFFFFF;
+}
+
+.contato {
+    position: absolute;
+    top: 43%;
+    left: 2%;
+    color: #FFFFFF;
+}
+
+.email {
+    position: absolute;
+    top: 53%;
+    left: 2%;
+    color: #FFFFFF;
+}
+
+.agradecimento {
+    position: absolute;
+    top: 68%;
+    left: 12%;
+    color: #f08633;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .filtros{
+        position: absolute;
+        top: 0.7%;
+        left: 33%;
+  }
+}
+
